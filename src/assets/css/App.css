@@ -1,0 +1,54 @@
+body {
+  height: 100%;
+  background-image: url('https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App {
+  text-align: center;
+}
+
+.input-group {
+  width: 60%;
+}
+
+.card {
+  max-width: 60%;
+}
+
+.card-tittle {
+  position: absolute;
+  padding: 20px;
+}
+
+.card-date {
+  position: absolute;
+  padding-left: 20px;
+  margin-top: 60px;
+}
+
+.card-temp {
+  position: absolute;
+  padding-left: 20px;
+  margin-top: 260px;
+  font-size: 50px;
+}
+
+.card-desc {
+  position: absolute;
+  padding-left: 20px;
+  margin-top: 320px;
+}
+
+@media (max-width: 375px) {
+  body {
+    height: 1242px;
+  }
+  .card-temp {
+    margin-top: 176px;
+  }
+  .card-desc {
+    margin-top: 232px;
+  }
+}
